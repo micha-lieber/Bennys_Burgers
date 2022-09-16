@@ -1,0 +1,83 @@
+// This is where you can import other stylesheets or write your scss code
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../node_modules/bootstrap/scss/_variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+body {
+  header {
+    background: url("/images/lidye-1Shk_PkNkNw-unsplash.jpg") bottom / cover;
+    height: 50vh;
+    nav {
+      background-color: black;
+      z-index: 10;
+      div {
+        a {
+          color: $purple !important;
+        }
+      }
+    }
+    #banner {
+      background: url("/src/images/lidye-1Shk_PkNkNw-unsplash.jpg") center /
+        cover;
+      height: 50vh;
+      h1 {
+        font-family: "Love Ya Like A Sister", cursive;
+        font-size: 10vw;
+      }
+      p {
+        color: white;
+      }
+      button {
+        background-color: $purple;
+      }
+    }
+  }
+  main {
+    #about-us {
+      padding: 4rem 1rem 4rem 1rem;
+      h2 {
+        font-family: "Love Ya Like A Sister", cursive;
+      }
+
+      div {
+        div {
+          div {
+            width: 60px;
+            height: 60px;
+          }
+          h3 {
+            font-family: "Love Ya Like A Sister", cursive;
+          }
+        }
+      }
+    }
+    #team {
+      background-color: $purple;
+      h2 {
+        font-family: "Love Ya Like A Sister", cursive;
+      }
+      .row {
+        .card {
+          .card-body {
+            h5 {
+              font-family: "Love Ya Like A Sister", cursive;
+            }
+            p {
+              font-size: 0.8rem;
+            }
+            a {
+              color: $purple;
+              border: 1px solid $purple;
+            }
+          }
+        }
+      }
+    }
+    #contact {
+      h2 {
+        font-family: "Love Ya Like A Sister", cursive;
+      }
+    }
+  }
+}
